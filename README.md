@@ -104,19 +104,17 @@ A comparison with a one-shot LLM response was also performed to examine the impo
 - Some recipes may have incomplete ingredient or instruction information.
 - The application currently runs through a Flask server started in Google Colab; a permanent public deployment is not included.
 
-## Deployment Note
+## Deployment Status
 
-The complete RecipeMate implementation was developed and evaluated using the full Recipe Box dataset containing 122,971 valid recipes.
+The RecipeMate application was developed and tested using Google Colab and the full Recipe Box dataset.
 
-For public deployment, a lightweight subset of approximately 15,000 recipes is used to reduce memory consumption and ensure compatibility with the free hosting environment.
+A separate deployment-ready version containing approximately 15,000 recipes was prepared to reduce memory requirements. The Flask application and supporting files were also configured for deployment on Render.
 
-**Important distinctions:**
-- The complete dataset and original implementation are retained in the Google Colab project.
-- The deployed demo uses a reduced recipe collection for faster, memory-efficient inference.
-- Recipe discovery and recommendations on the online demo operate on the available deployment subset.
-- Dataset statistics and full-dataset analysis refer to the original complete dataset, not the deployment subset.
+However, the deployment could not be completed because the application exceeded the memory limit of Render's free tier.
 
-This deployment optimization does not change the scope of the original project; it is a practical adjustment to hosting resource limitations.
+The original Colab implementation and full dataset remain preserved. The application can be run locally or through Google Colab by following the setup instructions above.
+
+The reduced dataset is intended for deployment testing and does not replace the full dataset used in the original project.
 
 ## 👩‍💻 Author
 
@@ -126,4 +124,4 @@ GitHub: [@ashritha-r](https://github.com/ashritha-r)
 
 ---
 
-*Developed as part of an Gen AI Internship Assignment.*
+*Developed as part of a Gen AI Internship Assignment.*
