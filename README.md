@@ -4,6 +4,10 @@ RecipeMate is an AI-powered conversational recipe chatbot that helps users disco
 
 It uses a recipe dataset, semantic search, FAISS vector indexing, and conversational context to provide relevant recipe recommendations.
 
+## 🖥️ Application Preview
+
+![RecipeMate Interface](recipemate-ui.png)
+
 ## ✨ Features
 
 - **Recipe Discovery:** Search for recipes using dish names and natural-language queries.
