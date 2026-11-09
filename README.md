@@ -8,6 +8,12 @@ It uses a recipe dataset, semantic search, FAISS vector indexing, and conversati
 
 ![RecipeMate Interface](recipemate-ui.png)
 
+## 🎥 Project Demo
+
+Watch the RecipeMate chatbot demonstration:
+
+[▶ Watch RecipeMate Demo](https://drive.google.com/file/d/1aKcGJkBvyMekcqdozAMcTRJuru0Gcl2R/view?usp=sharing)
+
 ## ✨ Features
 
 - **Recipe Discovery:** Search for recipes using dish names and natural-language queries.
